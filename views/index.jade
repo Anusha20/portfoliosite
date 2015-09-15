@@ -1,0 +1,53 @@
+extends layout
+
+block content
+    .container
+      // Portfolio Item Heading
+      .row
+        .col-lg-12
+          h1.page-header
+            h1= portfolioName
+      // /.row
+      // Portfolio Item Row
+      .row
+        .col-md-8
+          img.img-responsive(src='../images/portfolio.jpg', alt='')
+        |             
+        .col-md-4
+            h3 Project Description  
+            p   #{portfolioName}, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.
+                    
+            h3 Project Details         
+            ul
+            li Lorem Ipsum
+                            
+            li Dolor Sit Amet
+                             
+            li Consectetur
+                            
+            li Adipiscing Elit      
+
+      // /.row
+      // Related Projects Row
+      .row
+        .col-lg-12
+          h3.page-header Related Projects
+        |             
+        .col-sm-3.col-xs-6
+          a(href='#')
+            img.img-responsive.portfolio-item(src='http://placehold.it/500x300', alt='')
+        |             
+        .col-sm-3.col-xs-6
+          a(href='#')
+            img.img-responsive.portfolio-item(src='http://placehold.it/500x300', alt='')
+        |             
+        .col-sm-3.col-xs-6
+          a(href='#')
+            img.img-responsive.portfolio-item(src='http://placehold.it/500x300', alt='')
+        |             
+        .col-sm-3.col-xs-6
+          a(href='#')
+            img.img-responsive.portfolio-item(src='http://placehold.it/500x300', alt='')
+      // /.row
+    // /.container
+    
